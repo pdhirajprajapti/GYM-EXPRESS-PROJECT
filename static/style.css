@@ -1,0 +1,71 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+body::before{
+     content:"";
+     width:100%;
+     height:800px;
+     position:absolute;
+     top:0px;
+     z-index:-1;
+     opacity:1;
+    background-image: url('/static/gym1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ nav{
+    background-color: black;
+    padding:12px;
+ }
+ ul{
+    display:flex;
+    flex-direction: row;
+ }
+ li{
+    list-style: none;
+    padding:3px 12px;
+ }
+ a:hover{
+    color:blueviolet;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ }
+ h2{
+    text-align: center;
+    color:black;
+ }
+ .container{
+    margin:35px 0px;
+ }
+ input, textarea{
+    display: block;
+    padding: 10px;
+    margin:15px auto;
+    width:40%;
+    border:2px solid black;
+    border-radius: 5px;
+ }
+ input:hover, textarea:hover{
+   background-color: rgb(191, 238, 240);
+ }
+ .btn{
+    display: block;
+    padding: 5px 12px;
+    margin:4px auto;
+    width:10%;
+    border:2px solid black;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor:pointer;
+    font-size: 15px;
+    background-color: grey;
+ }
+ .btn:hover{
+    background-color: brown;
+    color: burlywood;
+ }
